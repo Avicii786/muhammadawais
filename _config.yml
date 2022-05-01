@@ -31,6 +31,8 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: dark
 repository: avicii786/muhammadawais/
 show_date: true
+atom_feed:
+  hide: true
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -65,28 +67,29 @@ author:
   name: "Muhammad Awais"
   avatar: "/assets/images/bio-photo.jpg"
   bio: "Python and Javascript Developer"
+  location: "Lakki Marwat, Pakistan"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/AwaiskhanAwaisi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Avicii786"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/codewithavicii/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/AwaiskhanAwaisi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Avicii786"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/codewithavicii/"
 
 defaults:
   # _posts
@@ -97,7 +100,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
