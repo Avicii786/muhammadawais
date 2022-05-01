@@ -22,12 +22,13 @@ twitter_username: AwaiskhanAwaisi
 github_username: Avicii786
 url: https://avicii786.github.io/
 baseurl: muhammadawais/
-minimal_mistakes_skin: dark
+
 search: true
 breadcrumbs: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: dark
 
 # Outputting
 permalink: /:categories/:title/
